@@ -3,6 +3,20 @@ layout: default
 title: Welcome to MMLoSo 2025
 ---
 
+<style>
+body {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin-left: 8%;
+  margin-right: auto;
+}
+</style>
+
 
 <!-- Top Navigation -->
 <nav style="text-align: center; margin-bottom: 2em;">

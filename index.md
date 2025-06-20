@@ -3,6 +3,16 @@ layout: default
 title: Welcome to MMLoSo 2025
 ---
 
+
+<!-- Top Navigation -->
+<nav style="text-align: center; margin-bottom: 2em;">
+  <a href="#about" style="margin: 0 15px;">About</a>
+  <a href="#cfp" style="margin: 0 15px;">Call for Papers</a>
+  <a href="#dates" style="margin: 0 15px;">Important Dates</a>
+  <a href="#organizers" style="margin: 0 15px;">Organizers</a>
+  <a href="#contact" style="margin: 0 15px;">Contact</a>
+</nav>
+
 # MMLoSo 2025  
 **Multimodal Models for Low-Resource Contexts and Social Impact**  
 📍 Co-located with IJCNLP-AACL 2025  
@@ -10,7 +20,7 @@ title: Welcome to MMLoSo 2025
 
 ---
 
-## 🧠 About
+## 🧠 <a id="about"></a> About
 
 This workshop brings together researchers at the intersection of multimodal learning, NLP, and AI for social good, with a focus on low-resource and underserved settings. While multimodal data—text, audio, visual, and sensor—continues to grow, most state-of-the-art models depend on large, high-quality datasets, limiting their applicability in data-scarce environments.
 
@@ -19,7 +29,7 @@ We invite papers on developing robust and inclusive multimodal systems that can 
 
 ---
 
-## 📢 Call for Papers
+## 📢 <a id="cfp"></a> Call for Papers
 
 We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings. This includes scenarios where data is scarce, modalities are incomplete or imbalanced, and computational or human infrastructure may be limited.
 
@@ -48,7 +58,7 @@ The topics of interest for the workshop include, but are not limited to:
 
 ---
 
-## 📅 Important Dates  
+## 📅 <a id="dates"></a> Important Dates  
 *(Subject to change based on IJCNLP-AACL 2025)*
 
 - 📝 Submission Deadline: **September 29, 2025**  
@@ -58,7 +68,7 @@ The topics of interest for the workshop include, but are not limited to:
 
 ---
 
-## 👥 Organizers
+## 👥 <a id="organizers"></a> Organizers
 
 - Ankita Shukla (University of Nevada, Reno)  
 - Sandeep Kumar (IIT Delhi)  
@@ -67,7 +77,7 @@ The topics of interest for the workshop include, but are not limited to:
 
 ---
 
-## ✉️ Contact
+## ✉️ <a id="contact"></a> Contact
 
 For any queries, email us at:  
 📧 [ankitas@unr.edu](mailto:ankitas@unr.edu)

@@ -17,7 +17,6 @@ body {
 }
 </style>
 
-
 <!-- Top Navigation -->
 <nav style="text-align: center; margin-bottom: 2em;">
   <a href="#about" style="margin: 0 15px;">About</a>

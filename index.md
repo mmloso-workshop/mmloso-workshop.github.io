@@ -33,7 +33,7 @@ body {
 
 ---
 
-## 🧠 <a id="about"></a> About
+## 📖 <a id="about"></a> About
 
 This workshop brings together researchers at the intersection of multimodal learning, NLP, and AI for social good, with a focus on low-resource and underserved settings. While multimodal data—text, audio, visual, and sensor—continues to grow, most state-of-the-art models depend on large, high-quality datasets, limiting their applicability in data-scarce environments.
 

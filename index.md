@@ -27,10 +27,11 @@ body {
   <a href="#contact" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
 </nav>
 
-# MMLoSo 2025  
-**Multimodal Models for Low-Resource Contexts and Social Impact**  
-📍 Co-located with IJCNLP-AACL 2025  
-📅 December 2025, Mumbai, India
+<h1 id="mm">MMLoSo 2025</h1>
+<p><strong>Multimodal Models for Low-Resource Contexts and Social Impact</strong></p>
+<p>📍 Co-located with IJCNLP-AACL 2025</p>
+<p>📅 December 2025, Mumbai, India</p>
+
 </div>
 ---
 

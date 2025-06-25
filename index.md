@@ -18,7 +18,7 @@ body {
 </style>
 
 <!-- Top Navigation -->
-<nav style="text-align: center; margin-bottom: 2em;">
+<nav style="margin-left: 10%; margin-bottom: 2em;">
   <a href="#about" style="margin: 0 15px;">About</a>
   <a href="#cfp" style="margin: 0 15px;">Call for Papers</a>
   <a href="#dates" style="margin: 0 15px;">Important Dates</a>

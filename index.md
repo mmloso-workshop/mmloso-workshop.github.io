@@ -20,11 +20,11 @@ body {
 <!-- Top Navigation -->
 <div class="wrapper">
   <nav style="margin-bottom: 2em;">
-    <a href="#about" style="margin-right: 15px;">About</a>
-    <a href="#cfp" style="margin-right: 15px;">Call for Papers</a>
-    <a href="#dates" style="margin-right: 15px;">Important Dates</a>
-    <a href="#organizers" style="margin-right: 15px;">Organizers</a>
-    <a href="#contact" style="margin-right: 15px;">Contact</a>
+  <a href="#about" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
+  <a href="#cfp" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+  <a href="#dates" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
+  <a href="#organizers" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
+  <a href="#contact" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
   </nav>
 </div>
 

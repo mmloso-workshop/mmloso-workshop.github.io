@@ -2,34 +2,24 @@
 layout: default
 title: Welcome to MMLoSo 2025
 ---
-
-<style>
-body {
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.wrapper {
-  max-width: 900px;
-  margin-left: 8%;
-  margin-right: auto;
-}
-</style>
-
-<!-- Top Navigation Buttons Aligned with Heading -->
-<nav style="margin: 0 auto 2em auto; max-width: 900px; padding-left: 1em;">
-  <a href="#about" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
-  <a href="#cfp" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
-  <a href="#dates" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
-  <a href="#organizers" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
-  <a href="#contact" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
-</nav>
-
+<div style="max-width: 900px; margin: 0 auto; text-align: left;">
+  
+<!-- Heading Section -->
 # MMLoSo 2025  
 **Multimodal Models for Low-Resource Contexts and Social Impact**  
 📍 Co-located with IJCNLP-AACL 2025  
 📅 December 2025, Mumbai, India
+
+<!-- Navigation Buttons -->
+<div style="margin-top: 1.5em;">
+  <a href="#about" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
+  <a href="#cfp" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+  <a href="#dates" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
+  <a href="#organizers" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
+  <a href="#contact" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
+</div>
+
+</div>
 
 ---
 

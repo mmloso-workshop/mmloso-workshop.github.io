@@ -17,24 +17,22 @@ body {
 }
 </style>
 
-<!-- Begin Wrapped Content -->
-<div style="margin-left: 10%; margin-right: 10%; max-width: 900px;">
-
-  <!-- Top Navigation -->
+<!-- Top Navigation -->
+<div class="wrapper">
   <nav style="margin-bottom: 2em;">
-  <a href="#about" style="margin: 0 15px;">About</a>
-  <a href="#cfp" style="margin: 0 15px;">Call for Papers</a>
-  <a href="#dates" style="margin: 0 15px;">Important Dates</a>
-  <a href="#organizers" style="margin: 0 15px;">Organizers</a>
-  <a href="#contact" style="margin: 0 15px;">Contact</a>
-</nav>
+    <a href="#about" style="margin-right: 15px;">About</a>
+    <a href="#cfp" style="margin-right: 15px;">Call for Papers</a>
+    <a href="#dates" style="margin-right: 15px;">Important Dates</a>
+    <a href="#organizers" style="margin-right: 15px;">Organizers</a>
+    <a href="#contact" style="margin-right: 15px;">Contact</a>
+  </nav>
+</div>
 
 # MMLoSo 2025  
 **Multimodal Models for Low-Resource Contexts and Social Impact**  
 📍 Co-located with IJCNLP-AACL 2025  
 📅 December 2025, Mumbai, India
 
-</div>
 
 ---
 

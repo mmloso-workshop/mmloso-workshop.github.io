@@ -3,36 +3,23 @@ layout: default
 title: Welcome to MMLoSo 2025
 ---
 
-<style>
-body {
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+<!-- Unified wrapper for consistent alignment -->
+<div style="max-width: 900px; margin: 0 auto; padding-left: 1em; padding-right: 1em;">
 
-.wrapper {
-  max-width: 900px;
-  margin-left: 8%;
-  margin-right: auto;
-}
-</style>
-
-<!-- Top Navigation -->
-<div class="wrapper">
-  <nav style="margin-bottom: 2em;">
+<!-- Top Navigation with Buttons -->
+<nav style="margin-bottom: 2em;">
   <a href="#about" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
   <a href="#cfp" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
   <a href="#dates" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
   <a href="#organizers" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
   <a href="#contact" style="display: inline-block; margin: 0 10px; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
-  </nav>
-</div>
+</nav>
 
 # MMLoSo 2025  
 **Multimodal Models for Low-Resource Contexts and Social Impact**  
 📍 Co-located with IJCNLP-AACL 2025  
 📅 December 2025, Mumbai, India
-
+</div>
 
 ---
 

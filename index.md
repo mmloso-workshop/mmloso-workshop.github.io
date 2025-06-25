@@ -28,9 +28,9 @@ body {
 </nav>
 
 <h1 id="mm">MMLoSo 2025</h1>
-<p><strong>Multimodal Models for Low-Resource Contexts and Social Impact</strong></p>
-<p>📍 Co-located with IJCNLP-AACL 2025</p>
-<p>📅 December 2025, Mumbai, India</p>
+<p style="margin: 0 0 6px 0;"><strong>Multimodal Models for Low-Resource Contexts and Social Impact</strong></p>
+<p style="margin: 0 0 6px 0;">📍 Co-located with IJCNLP-AACL 2025</p>
+<p style="margin: 0;">📅 December 2025, Mumbai, India</p>
 
 </div>
 ---

@@ -2,24 +2,35 @@
 layout: default
 title: Welcome to MMLoSo 2025
 ---
-<div style="max-width: 900px; margin: 0 auto; text-align: left;">
-  
-<!-- Heading Section -->
-# MMLoSo 2025  
-**Multimodal Models for Low-Resource Contexts and Social Impact**  
-📍 Co-located with IJCNLP-AACL 2025  
-📅 December 2025, Mumbai, India
+<style>
+body {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div class="wrapper">
 
 <!-- Navigation Buttons -->
-<div style="margin-top: 1.5em;">
+<nav style="margin-bottom: 1.5em;">
   <a href="#about" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
   <a href="#cfp" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
   <a href="#dates" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
   <a href="#organizers" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
   <a href="#contact" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
-</div>
+</nav>
 
-</div>
+# MMLoSo 2025  
+**Multimodal Models for Low-Resource Contexts and Social Impact**  
+📍 Co-located with IJCNLP-AACL 2025  
+📅 December 2025, Mumbai, India
 
 ---
 
@@ -29,6 +40,7 @@ This workshop brings together researchers at the intersection of multimodal lear
 
 We invite papers on developing robust and inclusive multimodal systems that can operate effectively under data constraints. Topics include learning with multiple modalities, cross-lingual, cross-modal adaptation, and interpretable models for domains like healthcare, ecological monitoring, education, and cultural heritage preservation. Alongside papers and keynotes, a community-driven shared task will evaluate multimodal robustness and generalization in low-resource contexts. 
 
+</div>
 
 ---
 

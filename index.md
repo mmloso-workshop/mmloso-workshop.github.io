@@ -17,8 +17,11 @@ body {
 }
 </style>
 
-<!-- Top Navigation -->
-<nav style="margin-left: 10%; margin-bottom: 2em;">
+<!-- Begin Wrapped Content -->
+<div style="margin-left: 10%; margin-right: 10%; max-width: 900px;">
+
+  <!-- Top Navigation -->
+  <nav style="margin-bottom: 2em;">
   <a href="#about" style="margin: 0 15px;">About</a>
   <a href="#cfp" style="margin: 0 15px;">Call for Papers</a>
   <a href="#dates" style="margin: 0 15px;">Important Dates</a>
@@ -30,6 +33,8 @@ body {
 **Multimodal Models for Low-Resource Contexts and Social Impact**  
 📍 Co-located with IJCNLP-AACL 2025  
 📅 December 2025, Mumbai, India
+
+</div>
 
 ---
 
@@ -77,7 +82,7 @@ The topics of interest for the workshop include, but are not limited to:
 - 📝 Submission Deadline: **September 29, 2025**  
 - 📢 Notification: **November 3, 2025**  
 - 🖋 Camera-ready Deadline: **November 11, 2025**  
-- 📍 Workshop: **December 2025**
+- 📍 Workshop:  **December  23, 2025**
 
 ---
 

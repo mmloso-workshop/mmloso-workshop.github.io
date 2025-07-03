@@ -87,25 +87,25 @@ The topics of interest for the workshop include, but are not limited to:
 ## 👥 <a id="organizers"></a> Organizers
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/ankita.jpeg" alt="Ankita Shukla" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <img src="/assets/img/ankita.jpeg" alt="Ankita Shukla" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
     <strong>Ankita Shukla</strong><br>
     University of Nevada, Reno
   </div>
   
   <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/sandeep.png" alt="Sandeep Kumar" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <img src="/assets/img/sandeep.png" alt="Sandeep Kumar" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
     <strong>Sandeep Kumar</strong><br>
     IIT Delhi
   </div>
 
   <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/amrit.jpg" alt="Amrit Singh Bedi" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <img src="/assets/img/amrit.jpg" alt="Amrit Singh Bedi" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
     <strong>Amrit Singh Bedi</strong><br>
     University of Central Florida
   </div>
 
   <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/images/tanmoy.png" alt="Tanmoy Chakraborty" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <img src="/assets/img/tanmoy.png" alt="Tanmoy Chakraborty" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
     <strong>Tanmoy Chakraborty</strong><br>
     IIT Delhi
   </div>

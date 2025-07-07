@@ -13,6 +13,21 @@ title: Welcome to MMLoSo 2025
   gap: 12px;
   z-index: 1000;
 ">
+  <h3 style="margin: 0;">MMLoSo Workshop @ IJCNP-AACL 2025</h3>
+  <p style="font-size: 13px; margin: 0;">
+    First International Workshop on<br>
+    Multimodal Models for Low-Resource Contexts and Social Impact
+  </p>
+  <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo&referrer=%5BHomepage%5D(%2F)#tab-recent-activity" 
+     target="_blank"
+     style="background-color: #2e7dd8; color: white; padding: 8px 14px;
+            border-radius: 6px; text-decoration: none;
+            font-weight: bold; font-size: 14px;">
+    🔗 View on OpenReview
+  </a>
+
+  <hr style="width: 100%; border: 0; border-top: 1px solid #ccc; margin: 8px 0;">
+  
   <a href="#about" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
   <a href="#cfp" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
   <a href="#dates" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>

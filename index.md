@@ -2,6 +2,24 @@
 layout: default
 title: Welcome to MMLoSo 2025
 ---
+
+<!-- Sticky Left Nav -->
+<div style="
+  position: fixed;
+  top: 20%;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 1000;
+">
+  <a href="#about" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
+  <a href="#cfp" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+  <a href="#dates" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
+  <a href="#organizers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
+  <a href="#contact" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
+</div>
+
 <style>
 body {
   max-width: 80%;
@@ -17,15 +35,6 @@ body {
 </style>
 
 <div class="wrapper">
-
-<!-- Navigation Buttons -->
-<nav style="margin-bottom: 1.5em;">
-  <a href="#about" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
-  <a href="#cfp" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
-  <a href="#dates" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
-  <a href="#organizers" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
-  <a href="#contact" style="display: inline-block; margin: 0 8px 8px 0; padding: 8px 16px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
-</nav>
 
 <h1 id="mm">MMLoSo 2025</h1>
 <p style="margin: 0 0 6px 0;"><strong>Multimodal Models for Low-Resource Contexts and Social Impact</strong></p>

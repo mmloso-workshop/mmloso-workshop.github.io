@@ -2,61 +2,56 @@
 layout: default
 title: Welcome to MMLoSo 2025
 ---
-
-<!-- Sticky Left Nav -->
-<div style="
-  position: fixed;
-  top: 20%;
-  left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  z-index: 1000;
-">
-  <h3 style="margin: 0;">MMLoSo Workshop @ IJCNP-AACL 2025</h3>
-  <p style="font-size: 13px; margin: 0;">
-    First International Workshop on<br>
-    Multimodal Models for Low-Resource Contexts and Social Impact
-  </p>
-  <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo&referrer=%5BHomepage%5D(%2F)#tab-recent-activity" 
-     target="_blank"
-     style="background-color: #2e7dd8; color: white; padding: 8px 14px;
-            border-radius: 6px; text-decoration: none;
-            font-weight: bold; font-size: 14px;">
-    🔗 View on OpenReview
-  </a>
-
-  <hr style="width: 100%; border: 0; border-top: 1px solid #ccc; margin: 8px 0;">
-
-  <a href="#about" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
-  <a href="#cfp" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
-  <a href="#dates" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
-  <a href="#organizers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
-  <a href="#contact" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
-</div>
-
 <style>
 body {
   display: flex;
-  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;  /* space between sidebar and content */
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: sticky;
+  top: 20px;
+  width: 220px;
+  flex-shrink: 0;
 }
 
 .wrapper {
-  max-width: 1100px;
+  max-width: 1000px;
   width: 100%;
-  margin-left: 250px; /* reserved space for sticky nav */
 }
 </style>
 
+<div class="sidebar">
+  <h3>MMLoSo Workshop @ IJCNP-AACL 2025</h3>
+  <p style="font-size: 13px;">
+    First International Workshop on<br>
+    Multimodal Models for Low-Resource Contexts and Social Impact
+  </p>
+  <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo"
+     target="_blank"
+     style="background-color: #2e7dd8; color: white; padding: 8px 14px;
+            border-radius: 6px; text-decoration: none;
+            font-weight: bold; font-size: 14px; display: inline-block; margin-bottom: 12px;">
+    🔗 View on OpenReview
+  </a>
+  <div style="margin-top: 8px;">
+    <a href="#about" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
+    <a href="#cfp" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+    <a href="#dates" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
+    <a href="#organizers" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
+    <a href="#contact" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
+  </div>
+</div>
 
 <div class="wrapper">
-
-<h1 id="mm">MMLoSo 2025</h1>
-<p style="margin: 0 0 6px 0;"><strong>Multimodal Models for Low-Resource Contexts and Social Impact</strong></p>
-<p style="margin: 0 0 6px 0;">📍 Co-located with IJCNLP-AACL 2025</p>
-<p style="margin: 0;">📅 December 2025, Mumbai, India</p>
-
-</div>
+  
+# MMLoSo 2025  
+**Multimodal Models for Low-Resource Contexts and Social Impact**  
+📍 Co-located with IJCNLP-AACL 2025  
+📅 December 2025, Mumbai, India
 ---
 
 ## 📖 <a id="about"></a> About

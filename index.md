@@ -44,8 +44,8 @@ body {
 
 .wrapper {
   max-width: 1400px !important;
-  width: 95% !important;
-  margin-left: auto !important;
+  width: 90% !important;
+  margin-left: 250px !important;
   margin-right: auto !important;
 }
 </style>

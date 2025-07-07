@@ -12,12 +12,11 @@ body {
 }
 
 .sidebar {
-  position: sticky;
-  top: 20px;
-  width: 220px;
+  width: 240px;
   flex-shrink: 0;
+  padding: 10px;
 }
-
+  
 .wrapper {
   max-width: 1000px;
   width: 100%;

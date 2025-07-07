@@ -15,10 +15,6 @@ title: Welcome to MMLoSo 2025
 .sidebar {
   flex: 0 0 280px;
 }
-.content {
-  flex: 1;
-  max-width: 900px;
-}
 .sidebar a.button {
   display: block;
   margin: 8px 0;
@@ -30,9 +26,28 @@ title: Welcome to MMLoSo 2025
   text-align: center;
 }
 .sidebar a.openreview {
-  display: inline-block;
   background-color: #2e7dd8;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+}
+.content {
+  flex: 1;
+  max-width: 900px;
+}
+.organizers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.organizer {
+  flex: 1 1 200px;
+  text-align: center;
+}
+.organizer img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 </style>
 
@@ -56,7 +71,7 @@ title: Welcome to MMLoSo 2025
 
 <div class="content">
 
-# MMLoSo 2025
+# MMLoSo 2025  
 **Multimodal Models for Low-Resource Contexts and Social Impact**  
 📍 Co-located with IJCNLP-AACL 2025  
 📅 December 2025, Mumbai, India
@@ -64,25 +79,12 @@ title: Welcome to MMLoSo 2025
 ---
 
 ## 📖 <a id="about"></a> About
-
-This workshop brings together researchers at the intersection of multimodal learning, NLP, and AI for social good, with a focus on low-resource and underserved settings. While multimodal data—text, audio, visual, and sensor—continues to grow, most state-of-the-art models depend on large, high-quality datasets, limiting their applicability in data-scarce environments.
-
-We invite papers on developing robust and inclusive multimodal systems that can operate effectively under data constraints. Topics include learning with multiple modalities, cross-lingual, cross-modal adaptation, and interpretable models for domains like healthcare, ecological monitoring, education, and cultural heritage preservation. Alongside papers and keynotes, a community-driven shared task will evaluate multimodal robustness and generalization in low-resource contexts.
+This workshop brings together researchers at the intersection of multimodal learning, NLP, and AI for social good, focusing on low-resource and underserved settings.
 
 ---
 
 ## 📢 <a id="cfp"></a> Call for Papers
-
-We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings. This includes scenarios where data is scarce, modalities are incomplete or imbalanced, and computational or human infrastructure may be limited.
-
-The topics of interest for the workshop include, but are not limited to:
-
-- **Learning with Missing or Incomplete Modalities**  
-- **Few-Shot, Zero-Shot, and Transfer Learning in Multimodal Contexts**  
-- **Multilingual and Multimodal Representation Learning**  
-- **Ethical, Interpretable, and Responsible AI for Multimodal Systems**  
-- **Benchmarking and Evaluation for Real-World Robustness**  
-- **Applications in Social Good**, including biodiversity monitoring, public health, language documentation, crisis response.
+We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings.
 
 ---
 
@@ -97,10 +99,28 @@ The topics of interest for the workshop include, but are not limited to:
 ---
 
 ## 👥 <a id="organizers"></a> Organizers
-- Ankita Shukla (University of Nevada, Reno)
-- Sandeep Kumar (IIT Delhi)
-- Amrit Singh Bedi (University of Central Florida)
-- Tanmoy Chakraborty (IIT Delhi)
+<div class="organizers-grid">
+  <div class="organizer">
+    <img src="/assets/img/ankita.jpeg" alt="Ankita Shukla"><br>
+    <strong>Ankita Shukla</strong><br>
+    University of Nevada, Reno
+  </div>
+  <div class="organizer">
+    <img src="/assets/img/sandeep.png" alt="Sandeep Kumar"><br>
+    <strong>Sandeep Kumar</strong><br>
+    IIT Delhi
+  </div>
+  <div class="organizer">
+    <img src="/assets/img/amrit.jpg" alt="Amrit Singh Bedi"><br>
+    <strong>Amrit Singh Bedi</strong><br>
+    University of Central Florida
+  </div>
+  <div class="organizer">
+    <img src="/assets/img/tanmoy.png" alt="Tanmoy Chakraborty"><br>
+    <strong>Tanmoy Chakraborty</strong><br>
+    IIT Delhi
+  </div>
+</div>
 
 ---
 

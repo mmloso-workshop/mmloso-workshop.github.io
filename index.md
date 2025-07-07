@@ -43,10 +43,10 @@ body {
 }
 
 .wrapper {
-  max-width: 1100px !important;
-  width: 90;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1400px !important;
+  width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 </style>
 

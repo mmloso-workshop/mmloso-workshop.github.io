@@ -2,48 +2,48 @@
 layout: default
 title: Welcome to MMLoSo 2025
 ---
+
 <style>
-body {
+.container {
   display: flex;
   align-items: flex-start;
-  gap: 40px;  /* space between sidebar and content */
-  margin: 0;
-  padding: 0;
 }
 
 .sidebar {
   width: 240px;
   flex-shrink: 0;
-  padding: 10px;
+  padding: 20px;
 }
-  
-.wrapper {
-  max-width: 1000px;
-  width: 100%;
+
+.content {
+  flex: 1;
+  max-width: 900px;
+  padding: 20px;
 }
 </style>
 
-<div class="sidebar">
-  <h3>MMLoSo Workshop @ IJCNP-AACL 2025</h3>
-  <p style="font-size: 13px;">
-    First International Workshop on<br>
-    Multimodal Models for Low-Resource Contexts and Social Impact
-  </p>
-  <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo"
-     target="_blank"
-     style="background-color: #2e7dd8; color: white; padding: 8px 14px;
-            border-radius: 6px; text-decoration: none;
-            font-weight: bold; font-size: 14px; display: inline-block; margin-bottom: 12px;">
-    🔗 View on OpenReview
-  </a>
-  <div style="margin-top: 8px;">
-    <a href="#about" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
-    <a href="#cfp" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
-    <a href="#dates" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
-    <a href="#organizers" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
-    <a href="#contact" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
+<div class="container">
+  <div class="sidebar">
+    <h3>MMLoSo Workshop @ IJCNP-AACL 2025</h3>
+    <p style="font-size: 13px;">
+      First International Workshop on<br>
+      Multimodal Models for Low-Resource Contexts and Social Impact
+    </p>
+    <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo"
+       target="_blank"
+       style="background-color: #2e7dd8; color: white; padding: 8px 14px;
+              border-radius: 6px; text-decoration: none;
+              font-weight: bold; font-size: 14px; display: inline-block; margin-bottom: 12px;">
+      🔗 View on OpenReview
+    </a>
+    <div style="margin-top: 8px;">
+      <a href="#about" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
+      <a href="#cfp" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+      <a href="#dates" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
+      <a href="#organizers" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
+      <a href="#contact" style="display: block; margin: 6px 0; padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
+    </div>
   </div>
-</div>
 
 <div class="wrapper">
   

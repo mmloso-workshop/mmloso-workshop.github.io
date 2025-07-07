@@ -37,13 +37,14 @@ title: Welcome to MMLoSo 2025
 
 <style>
 body {
-  max-width: 95%;
-  margin-left: 2%;
-  margin-right: 2%;
+  max-width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .wrapper {
-  max-width: 1100px;
+  max-width: 1100px !important;
+  width: 90;
   margin-left: auto;
   margin-right: auto;
 }

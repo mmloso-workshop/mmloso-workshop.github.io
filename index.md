@@ -4,45 +4,34 @@ title: Welcome to MMLoSo 2025
 ---
 
 <style>
-body {
-  max-width: 850px;
-  margin: 0 auto;
-  padding: 20px;
+.wrapper {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 nav {
-  margin-bottom: 2em;
   text-align: center;
+  margin: 20px 0;
 }
 nav a {
   display: inline-block;
-  margin: 5px;
-  padding: 10px 18px;
+  margin: 0 10px 10px 0;
+  padding: 8px 16px;
   background-color: #005a9c;
   color: white;
   border-radius: 6px;
   text-decoration: none;
 }
-.organizers {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
-.organizers div {
-  text-align: center;
-  flex: 1 1 180px;
-}
-.organizers img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+nav a:hover {
+  background-color: #00497a;
 }
 </style>
 
+<div class="wrapper">
+
 # MMLoSo Workshop @ IJCNP-AACL 2025
-_First International Workshop on Multimodal Models for Low-Resource Contexts and Social Impact_
+
+*First International Workshop on Multimodal Models for Low-Resource Contexts and Social Impact*
 
 [🔗 View on OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo)
 
@@ -68,64 +57,44 @@ We invite papers on developing robust and inclusive multimodal systems that can 
 
 We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings. This includes scenarios where data is scarce, modalities are incomplete or imbalanced, and computational or human infrastructure may be limited.
 
-The topics of interest for the workshop include, but are not limited to:
+Topics include, but are not limited to:
 
 - **Learning with Missing or Incomplete Modalities**  
-  Techniques for modality dropout, hallucination, and imputation when input signals are sparse or missing at training or inference time.
-
 - **Few-Shot, Zero-Shot, and Transfer Learning in Multimodal Contexts**  
-  Approaches that allow models pre-trained on high-resource datasets to adapt effectively to novel, low-resource domains and languages.
-
 - **Multilingual and Multimodal Representation Learning**  
-  Unifying language, vision, audio, and other modalities across multiple languages, especially those underrepresented in current benchmarks.
-
 - **Ethical, Interpretable, and Responsible AI for Multimodal Systems**  
-  Auditing and mitigating bias in multimodal systems; developing transparent models that explain decisions across modalities in high-stakes domains.
-
 - **Benchmarking and Evaluation for Real-World Robustness**  
-  Proposing new datasets, metrics, and evaluations that reflect deployment challenges in regions with limited resources or infrastructure.
-
-- **Applications in Social Good**, including:
-  - Ecological and biodiversity monitoring (e.g., combining satellite, image, and audio data)
-  - Public health and epidemiology in underserved regions
-  - Language documentation and cultural preservation
-  - Crisis response, misinformation detection, and social justice
+- **Applications in Social Good**:  
+    - Ecological and biodiversity monitoring  
+    - Public health and epidemiology in underserved regions  
+    - Language documentation and cultural preservation  
+    - Crisis response, misinformation detection, and social justice  
 
 ---
 
-## 📅 <a id="dates"></a> Important Dates  
+## 📅 <a id="dates"></a> Important Dates
+
 *(Subject to change based on IJCNLP-AACL 2025)*
 
 - 📝 Submission Deadline: **September 29, 2025**  
 - 📢 Notification: **November 3, 2025**  
 - 🖋 Camera-ready Deadline: **November 11, 2025**  
-- 📍 Workshop: **December 23, 2025**
+- 📍 Workshop: **December 2025**
 
 ---
 
 ## 👥 <a id="organizers"></a> Organizers
-<div class="organizers">
-  <div>
-    <img src="/assets/img/ankita.jpeg" alt="Ankita Shukla"><br>
-    <strong>Ankita Shukla</strong><br>University of Nevada, Reno
-  </div>
-  <div>
-    <img src="/assets/img/sandeep.png" alt="Sandeep Kumar"><br>
-    <strong>Sandeep Kumar</strong><br>IIT Delhi
-  </div>
-  <div>
-    <img src="/assets/img/amrit.jpg" alt="Amrit Singh Bedi"><br>
-    <strong>Amrit Singh Bedi</strong><br>University of Central Florida
-  </div>
-  <div>
-    <img src="/assets/img/tanmoy.png" alt="Tanmoy Chakraborty"><br>
-    <strong>Tanmoy Chakraborty</strong><br>IIT Delhi
-  </div>
-</div>
+
+- Ankita Shukla (University of Nevada, Reno)  
+- Sandeep Kumar (IIT Delhi)  
+- Amrit Singh Bedi (University of Central Florida)  
+- Tanmoy Chakraborty (IIT Delhi)
 
 ---
 
 ## ✉️ <a id="contact"></a> Contact
 
-For any queries, email us at:  
+For any queries, email:  
 📧 [ankitas@unr.edu](mailto:ankitas@unr.edu)
+
+</div>

@@ -54,7 +54,7 @@ We invite papers on developing robust and inclusive multimodal systems that can 
 
 ## 📢 <a id="cfp"></a> Call for Papers
 
-...
+
 
 We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings. This includes scenarios where data is scarce, modalities are incomplete or imbalanced, and computational or human infrastructure may be limited.
 

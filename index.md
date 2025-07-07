@@ -37,18 +37,17 @@ title: Welcome to MMLoSo 2025
 
 <style>
 body {
-  max-width: 100%;
-  margin-left: 0%;
-  margin-right: 0%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .wrapper {
-  max-width: 1400px !important;
-  width: 90% !important;
-  margin-left: 250px !important;
-  margin-right: auto !important;
+  max-width: 1100px;
+  width: 100%;
+  margin-left: 250px; /* reserved space for sticky nav */
 }
 </style>
+
 
 <div class="wrapper">
 

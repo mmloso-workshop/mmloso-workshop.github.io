@@ -8,6 +8,7 @@ title: Welcome to MMLoSo 2025
   position: fixed;
   top: 20%;
   left: 20px;
+  width: 220px;
   display: flex;
   flex-direction: column;
   gap: 12px;

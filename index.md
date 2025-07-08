@@ -31,8 +31,10 @@ title: Welcome to MMLoSo 2025
   
   <a href="#about" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
   <a href="#cfp" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+  <a href="#keynotes" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Keynote Speakers</a>
   <a href="#dates" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
   <a href="#organizers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
+  <a href="#pc" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Program Committee</a>
   <a href="#contact" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
 </div>
 
@@ -99,6 +101,10 @@ The topics of interest for the workshop include, but are not limited to:
 
 
 ---
+## 🎤 <a id="keynotes"></a> Keynote Speakers    
+
+Details coming soon..
+ 
 
 ## 📅 <a id="dates"></a> Important Dates  
 *(Subject to change based on IJCNLP-AACL 2025)*
@@ -136,6 +142,7 @@ The topics of interest for the workshop include, but are not limited to:
 </div>
 
 ---
+## 📝 <a id="pc"></a> Program Committee
 
 ## ✉️ <a id="contact"></a> Contact
 

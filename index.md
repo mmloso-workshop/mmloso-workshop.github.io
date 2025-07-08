@@ -31,10 +31,12 @@ title: Welcome to MMLoSo 2025
   
   <a href="#about" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
   <a href="#cfp" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
+  <a href="#task" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Shared Task and Competition</a>
   <a href="#keynotes" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Keynote Speakers</a>
   <a href="#dates" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
   <a href="#organizers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
   <a href="#pc" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Program Committee</a>
+  <a href="#volunteers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Student Volunteers</a>
   <a href="#contact" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
 </div>
 
@@ -98,7 +100,10 @@ The topics of interest for the workshop include, but are not limited to:
   - Public health and epidemiology in underserved regions
   - Language documentation and cultural preservation
   - Crisis response, misinformation detection, and social justice
+---
+## 🏆 <a id="task"></a> Shared Task & Competition
 
+Details coming soon 
 
 ---
 ## 🎤 <a id="keynotes"></a> Keynote Speakers    
@@ -143,6 +148,8 @@ Details coming soon..
 
 ---
 ## 📝 <a id="pc"></a> Program Committee
+---
+## 🙋‍♀️ <a id="volunteers"></a> Student Volunteers
 
 ## ✉️ <a id="contact"></a> Contact
 

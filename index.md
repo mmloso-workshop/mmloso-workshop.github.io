@@ -100,9 +100,9 @@ The topics of interest for the workshop include, but are not limited to:
   - Public health and epidemiology in underserved regions
   - Language documentation and cultural preservation
   - Crisis response, misinformation detection, and social justice  
----
-## 🏆 <a id="task"></a> Shared Task & Competition
 
+
+## 🏆 <a id="task"></a> Shared Task & Competition
 Details coming soon 
 
 ---

@@ -1,0 +1,26 @@
+/* --- workshop banner --- */
+.workshop-banner {
+  margin: 0 auto 2rem auto;          /* center it & give breathing room */
+  max-width: 900px;                  /* matches the main <section> width */
+  text-align: center;                /* tidy for a simple heading+button */
+}
+
+.workshop-banner h1   { margin: 0.2em 0; font-size: 2.2rem; }
+.workshop-banner p    { margin: 0.2em 0 1rem; }
+
+.openreview-btn {
+  background: #2e7dd8;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+/* keep everything fluid under the mobile breakpoint you already use */
+@media screen and (max-width: 960px) {
+  .workshop-banner,
+  section { max-width: 100%; padding: 0 1rem; }
+}

@@ -44,7 +44,7 @@ body {
 }
 
 .wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }

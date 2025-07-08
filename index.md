@@ -101,8 +101,9 @@ The topics of interest for the workshop include, but are not limited to:
   - Language documentation and cultural preservation
   - Crisis response, misinformation detection, and social justice  
 
+---
 
-## 🏆 <a id="task"></a> Shared Task & Competition
+## 🏆 <a id="task"></a> Shared Task & Competition  
 Details coming soon 
 
 ---
@@ -110,6 +111,7 @@ Details coming soon
 
 Details coming soon..
  
+---
 
 ## 📅 <a id="dates"></a> Important Dates  
 *(Subject to change based on IJCNLP-AACL 2025)*

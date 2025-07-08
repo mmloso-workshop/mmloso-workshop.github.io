@@ -3,60 +3,32 @@ layout: default
 title: Welcome to MMLoSo 2025
 ---
 
-<!-- Sticky Left Nav -->
-<div style="
-  position: fixed;
-  top: 20%;
-  left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  z-index: 1000;
-">
-  <h3 style="margin: 0;">MMLoSo Workshop @ IJCNP-AACL 2025</h3>
-  <p style="font-size: 13px; margin: 0;">
-    First International Workshop on<br>
-    Multimodal Models for Low-Resource Contexts and Social Impact
-  </p>
-  <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo&referrer=%5BHomepage%5D(%2F)#tab-recent-activity" 
-     target="_blank"
-     style="background-color: #2e7dd8; color: white; padding: 8px 14px;
-            border-radius: 6px; text-decoration: none;
-            font-weight: bold; font-size: 14px;">
+<div class="sidebar-nav">
+  <h3>MMLoSo Workshop @ IJCNLP-AACL 2025</h3>
+  <p>First International Workshop on<br>
+    Multimodal Models for Low-Resource Contexts and Social Impact</p>
+  
+  <a href="https://openreview.net/forum?id=Bgg7bkB74xg" 
+     target="_blank" 
+     class="openreview-btn">
     🔗 View on OpenReview
   </a>
 
-  <hr style="width: 100%; border: 0; border-top: 1px solid #ccc; margin: 8px 0;">
-  
-  <a href="#about" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">About</a>
-  <a href="#cfp" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Call for Papers</a>
-  <a href="#dates" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Important Dates</a>
-  <a href="#organizers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Organizers</a>
-  <a href="#contact" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
+  <hr>
+
+  <a href="#about">About</a>
+  <a href="#cfp">Call for Papers</a>
+  <a href="#dates">Important Dates</a>
+  <a href="#organizers">Organizers</a>
+  <a href="#contact">Contact</a>
 </div>
 
-<style>
-body {
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+<div class="main-content">
 
-.wrapper {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<div class="wrapper">
-
-<h1 id="mm">MMLoSo 2025</h1>
-<p style="margin: 0 0 6px 0;"><strong>Multimodal Models for Low-Resource Contexts and Social Impact</strong></p>
-<p style="margin: 0 0 6px 0;">📍 Co-located with IJCNLP-AACL 2025</p>
-<p style="margin: 0;">📅 December 2025, Mumbai, India</p>
-
-</div>
+# MMLoSo 2025
+**Multimodal Models for Low-Resource Contexts and Social Impact**  
+📍 Co-located with IJCNLP-AACL 2025  
+📅 December 2025, Mumbai, India
 
 ---
 
@@ -69,33 +41,18 @@ We invite papers on developing robust and inclusive multimodal systems that can 
 
 ## 📢 <a id="cfp"></a> Call for Papers
 
-
-
-We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings. This includes scenarios where data is scarce, modalities are incomplete or imbalanced, and computational or human infrastructure may be limited.
-
-The topics of interest for the workshop include, but are not limited to:
+We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings...
 
 - **Learning with Missing or Incomplete Modalities**  
-  Techniques for modality dropout, hallucination, and imputation when input signals are sparse or missing at training or inference time.
-
 - **Few-Shot, Zero-Shot, and Transfer Learning in Multimodal Contexts**  
-  Approaches that allow models pre-trained on high-resource datasets to adapt effectively to novel, low-resource domains and languages.
-
 - **Multilingual and Multimodal Representation Learning**  
-  Unifying language, vision, audio, and other modalities across multiple languages, especially those underrepresented in current benchmarks.
-
 - **Ethical, Interpretable, and Responsible AI for Multimodal Systems**  
-  Auditing and mitigating bias in multimodal systems; developing transparent models that explain decisions across modalities in high-stakes domains.
-
 - **Benchmarking and Evaluation for Real-World Robustness**  
-  Proposing new datasets, metrics, and evaluations that reflect deployment challenges in regions with limited resources or infrastructure.
-
-- **Applications in Social Good**, including:
-  - Ecological and biodiversity monitoring (e.g., combining satellite, image, and audio data)
-  - Public health and epidemiology in underserved regions
-  - Language documentation and cultural preservation
-  - Crisis response, misinformation detection, and social justice
-
+- **Applications in Social Good** including:
+  - Ecological and biodiversity monitoring
+  - Public health
+  - Language documentation
+  - Crisis response
 
 ---
 
@@ -111,27 +68,11 @@ The topics of interest for the workshop include, but are not limited to:
 
 ## 👥 <a id="organizers"></a> Organizers
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/img/ankita.jpeg" alt="Ankita Shukla" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
-    <strong>Ankita Shukla</strong><br>
-    University of Nevada, Reno
-  </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/img/sandeep.png" alt="Sandeep Kumar" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
-    <strong>Sandeep Kumar</strong><br>
-    IIT Delhi
-  </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/img/amrit.jpg" alt="Amrit Singh Bedi" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
-    <strong>Amrit Singh Bedi</strong><br>
-    University of Central Florida
-  </div>
-  <div style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/assets/img/tanmoy.png" alt="Tanmoy Chakraborty" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
-    <strong>Tanmoy Chakraborty</strong><br>
-    IIT Delhi
-  </div>
+<div class="organizers-grid">
+  <div><img src="/assets/img/ankita.jpeg" alt="Ankita Shukla"><br><strong>Ankita Shukla</strong><br>University of Nevada, Reno</div>
+  <div><img src="/assets/img/sandeep.png" alt="Sandeep Kumar"><br><strong>Sandeep Kumar</strong><br>IIT Delhi</div>
+  <div><img src="/assets/img/amrit.jpg" alt="Amrit Singh Bedi"><br><strong>Amrit Singh Bedi</strong><br>University of Central Florida</div>
+  <div><img src="/assets/img/tanmoy.png" alt="Tanmoy Chakraborty"><br><strong>Tanmoy Chakraborty</strong><br>IIT Delhi</div>
 </div>
 
 ---
@@ -140,3 +81,5 @@ The topics of interest for the workshop include, but are not limited to:
 
 For any queries, email us at:  
 📧 [ankitas@unr.edu](mailto:ankitas@unr.edu)
+
+</div>

@@ -1,6 +1,6 @@
- ---
-layout: default
-title: Welcome to MMLoSo 2025
+---
+layout: default  
+title: Welcome to MMLoSo 2025  
 ---
 
 <!-- Sticky Left Nav -->

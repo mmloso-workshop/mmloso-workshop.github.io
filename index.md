@@ -169,7 +169,7 @@ Interested? [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFu
   - Shashwat Bhardwaj 
   - Debarchan Basu
   - Vaibhav Sharma
-  - Pooja Singh
+  - Pooja Singh  
 ## ✉️ <a id="contact"></a> Contact
 
 For any queries, email us at:  

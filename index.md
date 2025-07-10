@@ -14,7 +14,7 @@ title: Welcome to MMLoSo 2025
   gap: 12px;
   z-index: 1000;
 ">
-  <h3 style="margin: 0;">MMLoSo Workshop @ IJCNP-AACL 2025</h3>
+  <h3 style="margin: 0;">MMLoSo Workshop @ IJCNLP-AACL 2025</h3>
   <p style="font-size: 13px; margin: 0;">
     First International Workshop on<br>
     Multimodal Models for Low-Resource Contexts and Social Impact
@@ -149,7 +149,11 @@ Details coming soon..
 </div>
 
 ---
-## 📝 <a id="pc"></a> Program Committee
+## 📝 <a id="pc"></a> Program Committee 
+
+We’re looking for dedicated reviewers to help maintain the high standard of our review process. Each reviewer is assigned no more than two submissions. 
+Interested? [Sign uo here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFuSNxqDqzWcYkaIOwbQbVigPzNwFJPzl-c15miw/viewform?usp=header)
+
 ---
 ## 🙋‍♀️ <a id="volunteers"></a> Student Volunteers
 

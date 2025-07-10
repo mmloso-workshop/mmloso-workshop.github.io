@@ -74,8 +74,6 @@ We invite papers on developing robust and inclusive multimodal systems that can 
 
 ## 📢 <a id="cfp"></a> Call for Papers
 
-
-
 We focus on bridging the gap between the growing capabilities of multimodal machine learning models and the urgent needs of real-world applications in under-resourced, marginalized, or data-constrained settings. This includes scenarios where data is scarce, modalities are incomplete or imbalanced, and computational or human infrastructure may be limited.
 
 The topics of interest for the workshop include, but are not limited to:
@@ -100,6 +98,18 @@ The topics of interest for the workshop include, but are not limited to:
   - Public health and epidemiology in underserved regions
   - Language documentation and cultural preservation
   - Crisis response, misinformation detection, and social justice  
+
+---
+## 📝 <a id="guidelines"></a> Submission Guidelines
+
+The workshop invites submissions in two formats. All page limits exclude unlimited pages for references.
+ - Long papers (up to 8 pages):
+    This format is for presenting a substantial and complete version of research.
+ - Short papers (up to 4 pages):
+    This format is ideal for presenting more focused contributions, including preliminary work, work-in-progress, position papers, or descriptions of systems.
+
+📅 **Submission link:** [OpenReview Submission Portal](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo)  
+📑 **Review process:** Review Process: Each paper will be reviewed by at least three program committee members. The submissions will be evaluated based on their technical soundness, relevance, significance, originality, and clarity.
 
 ---
 
@@ -156,7 +166,10 @@ Interested? [Sign uo here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFu
 
 ---
 ## 🙋‍♀️ <a id="volunteers"></a> Student Volunteers
-
+  - Shashwat Bhardwaj 
+  - Debarchan Basu
+  - Vaibhav Sharma
+  - Pooja Singh
 ## ✉️ <a id="contact"></a> Contact
 
 For any queries, email us at:  

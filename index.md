@@ -162,7 +162,7 @@ Details coming soon..
 ## 📝 <a id="pc"></a> Program Committee 
 
 We’re looking for dedicated reviewers to help maintain the high standard of our review process. Each reviewer is assigned no more than two submissions. 
-Interested? [Sign uo here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFuSNxqDqzWcYkaIOwbQbVigPzNwFJPzl-c15miw/viewform?usp=header)
+Interested? [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFuSNxqDqzWcYkaIOwbQbVigPzNwFJPzl-c15miw/viewform?usp=header)
 
 ---
 ## 🙋‍♀️ <a id="volunteers"></a> Student Volunteers

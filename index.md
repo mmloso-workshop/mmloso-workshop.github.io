@@ -2,6 +2,12 @@
 layout: default  
 title: Welcome to MMLoSo 2025  
 ---
+<!-- ▶️  Banner goes right after the front-matter block ◀️ -->
+<img src="/assets/img/banner.png"
+     alt="MMLoSo 2025 Workshop Banner"
+     style="width:100%;max-height:320px;object-fit:cover;margin-bottom:20px;">
+
+
 
 <!-- Sticky Left Nav -->
 <div style="

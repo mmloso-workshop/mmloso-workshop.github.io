@@ -2,6 +2,13 @@
 layout: default  
 title: Welcome to MMLoSo 2025  
 ---
+<style>
+/* widen the site’s default container */
+.wrapper{
+  max-width: 1200px;   /* pick any width you like, e.g. 1400px or 90vw */
+}
+</style>
+
 <!-- ▶️  Banner goes right after the front-matter block ◀️ -->
 <img src="/assets/img/banner.png"
      alt="MMLoSo 2025 Workshop Banner"

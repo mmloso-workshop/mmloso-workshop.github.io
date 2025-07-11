@@ -8,7 +8,7 @@ title: Welcome to MMLoSo 2025
      style="
         width:100vw;          /* fill entire viewport */
         max-width:1000;       /* <- override the theme rule */
-        max-height:420px;
+        max-height:220px;
         object-fit:cover;
         display:block;
         position:relative;    /* pull it out of the wrapper’s center */
@@ -19,7 +19,7 @@ title: Welcome to MMLoSo 2025
 <!-- Sticky Left Nav -->
 <div style="
   position: fixed;
-  top: 20%;
+  top: 30%;
   left: 20px;
   width: 220px;
   display: flex;

@@ -7,13 +7,11 @@ title: Welcome to MMLoSo 2025
      alt="MMLoSo 2025 Workshop Banner"
      style="
         width:100vw;          /* fill entire viewport */
-        max-width:none;       /* <- override the theme rule */
-        max-height:220px;
+        max-width:1000;       /* <- override the theme rule */
+        max-height:420px;
         object-fit:cover;
         display:block;
         position:relative;    /* pull it out of the wrapper’s center */
-        left:50%;
-        transform:translateX(-50%);
         margin:0 0 20px 0;"> 
 
 

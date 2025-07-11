@@ -5,7 +5,15 @@ title: Welcome to MMLoSo 2025
 <!-- ▶️  Banner goes right after the front-matter block ◀️ -->
 <img src="/assets/img/banner.png"
      alt="MMLoSo 2025 Workshop Banner"
-     style="width:100%;max-height:220px;object-fit:cover;display:block;margin:0;">
+     style="
+        width:100vw;          /* fill entire viewport */
+        max-height:220px;
+        object-fit:cover;
+        display:block;
+        position:relative;    /* pull it out of the wrapper’s center */
+        left:50%;
+        transform:translateX(-50%);
+        margin:0 0 20px 0;"> 
 
 
 

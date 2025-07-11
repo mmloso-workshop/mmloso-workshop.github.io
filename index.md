@@ -19,7 +19,7 @@ title: Welcome to MMLoSo 2025
 <!-- Sticky Left Nav -->
 <div style="
   position: fixed;
-  top: 30%;
+  top: 20%;
   left: 20px;
   width: 220px;
   display: flex;

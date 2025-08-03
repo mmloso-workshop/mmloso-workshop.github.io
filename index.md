@@ -134,13 +134,12 @@ The workshop invites submissions in two formats. All page limits exclude unlimit
 ---
 
 ## 🏆 <a id="task"></a> Shared Task & Competition  
-Details coming soon 
 
 ---
 ## 🎤 <a id="keynotes"></a> Keynote Speakers    
 
 Details coming soon..
- 
+
 ---
 
 ## 📅 <a id="dates"></a> Important Dates  

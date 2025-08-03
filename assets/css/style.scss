@@ -1,0 +1,32 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* ——— Top navigation styles ——— */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+}
+.top-nav a:hover {
+  opacity: 0.7;
+}

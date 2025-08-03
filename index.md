@@ -22,8 +22,8 @@ title: Welcome to MMLoSo 2025
         margin:0 0 20px 0;"> 
 
 
+<!--
 
-<!-- Sticky Left Nav -->
 <div style="
   position: fixed;
   top: 20%;
@@ -58,7 +58,8 @@ title: Welcome to MMLoSo 2025
   <a href="#pc" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Program Committee</a>
   <a href="#volunteers" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Student Volunteers</a>
   <a href="#contact" style="padding: 8px 12px; background-color: #005a9c; color: white; border-radius: 6px; text-decoration: none;">Contact</a>
-</div>
+</div> 
+-->
 
 <style>
 body {

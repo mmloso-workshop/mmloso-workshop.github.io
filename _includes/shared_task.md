@@ -1,4 +1,53 @@
-India is land of unmatched diversity, especially in terms of spoken languages. Many of these languages are tribal languages, which have a sizable number of speakers. But often, these languages are poorly documented and thus, lack the massive annotated corpora that power today’s NLP breakthroughs. Bhili, being one of them. Limited digital presence means the native speakers face barriers in health-care messaging, disaster alerts, e-governance, and educational resources—all of which increasingly rely on text mining and machine translation. By building open-source systems for Bhili ⇆ Hindi translation and Bhili sentiment analysis, this competition channels data-science skills toward tangible social impact: making vital information accessible in an underserved language and amplifying the voices of the native speakers online. In this competition you will:  
-1. Translate from Hindi, a high-resource language (HRL), into Bhili, our focus low-resource language (LRL).  
-2. Classify sentiment in the LRL (3-way emotion categories).  
+### Why this Shared Task?
 
+India is home to unmatched linguistic diversity. Many languages with sizable speech communities—especially **tribal/Indigenous languages**—remain **poorly documented**, lacking the large annotated corpora that power today’s NLP breakthroughs. **Bhili** is one such language. Its limited digital presence creates barriers to healthcare messaging, disaster alerts, e-governance, and educational resources—domains that increasingly rely on text mining and machine translation.
+
+This competition channels data-science skills toward tangible social impact by building **open-source systems** for:
+
+- **Bhili ⇆ Hindi translation** (HRL → LRL and/or LRL → HRL)
+- **Bhili sentiment analysis** (three-way emotion classification)
+
+By tackling both tasks together, participants help **advance multilingual NLP** and develop **end-to-end pipelines** that work in **data-sparse settings**.
+
+---
+
+### Tasks
+
+1. **Machine Translation (MT)**  
+   Translate between **Hindi (HRL)** and **Bhili (LRL)**. Primary direction: **Hindi → Bhili**.
+
+2. **Sentiment Analysis (SA)**  
+   Classify the sentiment of Bhili texts into **three categories** *(e.g., 0/1/2 — confirm label mapping in the data card)*.
+
+> **Evaluation metrics**: to be finalized; suggested defaults are **chrF / BLEU** for MT and **macro-F1** for SA.
+
+---
+
+### Dataset at a Glance
+
+| File                   | Purpose                              | Key Columns                 |
+|------------------------|--------------------------------------|-----------------------------|
+| `mt_train.csv`         | Parallel data for MT training        | `id`, `source`, `target`    |
+| `mt_test_features.csv` | Unlabelled source sentences (MT)     | `id`, `source`              |
+| `sa_train.csv`         | Labeled texts for sentiment (SA)     | `id`, `text`, `label` *(0/1/2)* |
+| `sa_test_features.csv` | Unlabelled texts for sentiment (SA)  | `id`, `text`                |
+| `sample_submission.zip`| Shows correct folder & file layout   | —                           |
+
+All texts are drawn from a **private, permissively licensed source**, cleaned and curated for research.  
+**Courtesy:** *Ministry of Tribal Affairs, Government of India.*
+
+---
+
+### Submissions
+
+- Follow the structure in **`sample_submission.zip`** for folder and file names.
+- Upload a single archive containing:
+  - MT predictions for the test split
+  - SA predictions for the test split
+- Include a short **system description** (1–2 pages) outlining model choices and data handling for low-resource constraints.
+
+---
+
+### Impact & Openness
+
+All baselines, scripts, and winning approaches will be **open-sourced** to improve **access to vital information** in Bhili and to **amplify native speakers’ voices** online.

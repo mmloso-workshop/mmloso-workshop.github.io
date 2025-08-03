@@ -1,8 +1,9 @@
 ---
-layout: default          # picks up _layouts/default.html
-title: Shared Task & Competition
-permalink: /shared-task/ # pretty URL: …/shared-task/
+layout: default                      # use the global layout
+title: Shared Task & Competition     # text that shows in <title> and banner
+permalink: /task/                    # URL will be …/task/
 ---
+
 
 # Shared Task & Competition
 [← Back to main page]({{ '/' | relative_url }})

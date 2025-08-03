@@ -1,38 +1,51 @@
 ---
 ---
-/* Import all base styles from the selected theme first */
+/* 1️⃣  Pull in the base styles from the Minimal theme first */
 @import "{{ site.theme }}";
 
-/* ────────── Sticky top navigation bar ────────── */
-.top-nav {
-  display: flex;            /* lay items out horizontally */
-  justify-content: center;  /* change to flex-start if you prefer left-aligned */
-  align-items: center;
-  gap: 2rem;                /* space between links */
-  background-color: #fff;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;            /* keep nav above page content */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* 2️⃣  ─────────── Banner tweaks ─────────── */
+.banner-inner {
+  text-align: left;      /* keep title + tagline left-aligned in the sidebar */
+  padding-bottom: 0.5rem;
 }
 
-/* Remove default bullets & spacing */
+/* 3️⃣  ─────────── Top navigation bar ─────────── */
+.top-nav {
+  /* sits right below the banner and spans full width of the sidebar column */
+  width: 100%;
+  background-color: #fff;
+
+  /* Sticky so it stays visible once you scroll past the banner */
+  position: sticky;
+  top: 0;               /* change to banner height if you want extra offset */
+  z-index: 1000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+  /* little breathing room above the links */
+  margin-top: 0.5rem;
+}
+
+/* Flex layout for the list of links */
 .top-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
   display: flex;
+  flex-wrap: wrap;      /* wraps to a new line on small screens */
+  gap: 0.75rem 1.5rem;  /* row-gap   column-gap */
 }
 
-/* Individual links */
+/* Link styling */
 .top-nav a {
   text-decoration: none;
   font-weight: 600;
-  color: inherit;           /* uses current text color */
+  color: inherit;
   transition: opacity 0.15s ease;
 }
+.top-nav a:hover { opacity: 0.7; }
 
-.top-nav a:hover {
-  opacity: 0.7;
+/* 4️⃣  ─────────── Optional: center nav on very narrow screens ─────────── */
+@media (max-width: 640px) {
+  .top-nav ul { justify-content: center; }
 }

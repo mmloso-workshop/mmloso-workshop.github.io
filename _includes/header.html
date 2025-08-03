@@ -1,6 +1,6 @@
-<!-- _includes/header.html -->
+<!-- _includes/header.html  — banner + sticky top nav -->
 <header class="workshop-banner">
-  <!-- ——— Banner (title, tagline, OpenReview) ——— -->
+  <!-- Banner -->
   <div class="banner-inner">
     <h1 class="site-title">{{ site.title }}</h1>
 
@@ -12,7 +12,6 @@
       <p class="site-description">{{ site.description }}</p>
     {% endif %}
 
-    <!-- OpenReview button; update the URL if your forum ID changes -->
     <a href="https://openreview.net/forum?id=Bgg7bkB74xg"
        class="openreview-btn"
        target="_blank" rel="noopener">
@@ -20,18 +19,18 @@
     </a>
   </div>
 
-  <!-- ——— Sticky top navigation ——— -->
+  <!-- Sticky top navigation -->
   <nav class="top-nav">
     <ul>
-      <li><a href="{{ '/#about'            | relative_url }}">About</a></li>
-      <li><a href="{{ '/#cfp'              | relative_url }}">Call&nbsp;for&nbsp;Papers</a></li>
-      <li><a href="{{ '/#task'             | relative_url }}">Shared&nbsp;Task</a></li>
-      <li><a href="{{ '/#keynotes'         | relative_url }}">Keynotes</a></li>
-      <li><a href="{{ '/#dates'            | relative_url }}">Important&nbsp;Dates</a></li>
-      <li><a href="{{ '/#organizers'       | relative_url }}">Organizers</a></li>
-      <li><a href="{{ '/#pc'               | relative_url }}">Program&nbsp;Committee</a></li>
-      <li><a href="{{ '/#volunteers'       | relative_url }}">Volunteers</a></li>
-      <li><a href="{{ '/#contact'          | relative_url }}">Contact</a></li>
+      <li><a href="{{ '/#about'      | relative_url }}">About</a></li>
+      <li><a href="{{ '/#cfp'        | relative_url }}">Call&nbsp;for&nbsp;Papers</a></li>
+      <li><a href="{{ '/#task'       | relative_url }}">Shared&nbsp;Task</a></li>
+      <li><a href="{{ '/#keynotes'   | relative_url }}">Keynotes</a></li>
+      <li><a href="{{ '/#dates'      | relative_url }}">Important&nbsp;Dates</a></li>
+      <li><a href="{{ '/#organizers' | relative_url }}">Organizers</a></li>
+      <li><a href="{{ '/#pc'         | relative_url }}">Program&nbsp;Committee</a></li>
+      <li><a href="{{ '/#volunteers' | relative_url }}">Volunteers</a></li>
+      <li><a href="{{ '/#contact'    | relative_url }}">Contact</a></li>
     </ul>
   </nav>
 </header>

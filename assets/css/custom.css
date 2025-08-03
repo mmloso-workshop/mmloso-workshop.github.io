@@ -1,24 +1,42 @@
-/* --- fixed sidebar nav --- */
+/* --- override Jekyll wrapper to allow full-width text --- */
+.wrapper {
+  max-width: none;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* --- banner image (lean & wide) --- */
+.banner {
+  width: 100vw;
+  max-width: none;
+  max-height: 200px;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+/* --- sidebar navigation --- */
 .sidebar-nav {
   position: fixed;
-  top: 20%;
+  top: 220px;       /* banner height (200) + 20px gap */
   left: 20px;
-  width: 220px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   z-index: 1000;
 }
-
-.sidebar-nav h3 {
-  margin: 0;
+.sidebar-nav h3 { margin: 0; }
+.sidebar-nav p { font-size: 13px; margin: 0; }
+.sidebar-nav hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
 }
-
-.sidebar-nav p {
-  font-size: 13px;
-  margin: 0;
-}
-
 .sidebar-nav a {
   background-color: #005a9c;
   color: white;
@@ -28,8 +46,7 @@
   font-weight: bold;
   font-size: 14px;
 }
-
-/* --- special OpenReview button --- */
+/* OpenReview button style */
 .openreview-btn {
   background: #2e7dd8;
   color: #fff;
@@ -39,16 +56,20 @@
   font-weight: 600;
   font-size: .9rem;
   display: inline-block;
+  margin-bottom: 8px;
 }
 
-/* --- main content shifted right to clear sidebar --- */
+/* --- main content area (fills full width minus sidebar) --- */
 .main-content {
-  margin-left: 260px;
-  max-width: 1000px;
-  padding: 0 2rem;
+  margin-left: 240px;                    /* sidebar width + 40px gutter */
+  width: calc(100vw - 240px);            /* fill rest of viewport */
+  padding-top: 200px;                    /* banner offset */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
 }
 
-/* --- organizers grid --- */
+/* --- organizers grid styling --- */
 .organizers-grid {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +88,7 @@
   border-radius: 50%;
 }
 
-/* responsive for mobile */
+/* --- responsive adjustments --- */
 @media screen and (max-width: 960px) {
   .sidebar-nav {
     position: static;
@@ -75,13 +96,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
     margin-bottom: 20px;
   }
-
   .main-content {
     margin-left: 0;
-    max-width: 100%;
-    padding: 0 1rem;
+    width: auto;
+    padding-top: 0;
   }
 }

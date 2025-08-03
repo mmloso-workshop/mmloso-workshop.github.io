@@ -136,7 +136,9 @@ The workshop invites submissions in two formats. All page limits exclude unlimit
 
 ## 🏆 <a id="task"></a> Shared Task & Competition  
 
-See full details on the [dedicated Shared Task page]({{ '/task/' | relative_url }}).
+
+Full details are on the [dedicated page]({{ '/task/' | relative_url }}).
+
 
 ---
 ## 🎤 <a id="keynotes"></a> Keynote Speakers    

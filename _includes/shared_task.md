@@ -1,64 +1,126 @@
-### Why this Shared Task?
+## 🏆 Overview
 
-India is home to unmatched linguistic diversity. Many languages with sizable speech communities—especially **tribal/Indigenous languages**—remain **poorly documented**, lacking the large annotated corpora that power today’s NLP breakthroughs. **Bhili** is one such language. Its limited digital presence creates barriers to healthcare messaging, disaster alerts, e-governance, and educational resources—domains that increasingly rely on text mining and machine translation.
+### Introduction
 
-This competition channels data-science skills toward tangible social impact by building **open-source systems** for:
+Welcome to **“MMLoSo Language Challenge 2025”**! India is land of unmatched diversity, especially in terms of spoken languages. Many of these languages are tribal languages, which have a sizable number of speakers. But often, these languages are poorly documented and thus lack the massive annotated corpora that power today’s NLP breakthroughs. Limited digital presence means the native speakers face barriers in healthcare messaging, disaster alerts, e-governance, and educational resources—all of which increasingly rely on text mining and machine translation.
 
-- **Bhili ⇆ Hindi translation** (HRL → LRL and/or LRL → HRL)
-- **Bhili sentiment analysis** (three-way emotion classification)
+By building open-source systems for **LRL ⇆ HRL translation**, this competition channels deep‐learning skills toward tangible social impact: making vital information accessible in underserved languages and amplifying the voices of native speakers online. In this competition you will translate between high‐resource languages (HRL) and our focused low‐resource languages (LRL), i.e.:
 
-By tackling both tasks together, participants help **advance multilingual NLP** and develop **end-to-end pipelines** that work in **data-sparse settings**.
+- **Hindi ⇆ Bhili**  
+- **Hindi ⇆ Mundari**  
+- **Hindi ⇆ Gondi**  
+- **English ⇆ Santali**
 
----
-
-### Tasks
-
-1. **Machine Translation (MT)**  
-   Translate between **Hindi (HRL)** and **Bhili (LRL)**. Primary direction: **Hindi → Bhili**.
-
-2. **Sentiment Analysis (SA)**  
-   Classify the sentiment of Bhili texts into **three categories** *(e.g., 0/1/2 — confirm label mapping in the data card)*.
-
-> **Evaluation metrics**: to be finalized; suggested defaults are **chrF / BLEU** for MT and **macro-F1** for SA.
+By tackling all tracks together, you will help push the frontier of multilingual NLP while building end‐to‐end pipelines that work in data‐sparse settings.
 
 ---
 
 ### Dataset at a Glance
 
-| File                   | Purpose                              | Key Columns                 |
-|------------------------|--------------------------------------|-----------------------------|
-| `mt_train.csv`         | Parallel data for MT training        | `id`, `source`, `target`    |
-| `mt_test_features.csv` | Unlabelled source sentences (MT)     | `id`, `source`              |
-| `sa_train.csv`         | Labeled texts for sentiment (SA)     | `id`, `text`, `label` *(0/1/2)* |
-| `sa_test_features.csv` | Unlabelled texts for sentiment (SA)  | `id`, `text`                |
-| `sample_submission.zip`| Shows correct folder & file layout   | —                           |
+| File                 | Purpose                                            | Key Columns                                  |
+|----------------------|----------------------------------------------------|----------------------------------------------|
+| `bhili-train.csv`    | Data for Bhili – Hindi translation training        | `row_id`, `hindi`, `bhili`                   |
+| `gondari-train.csv`  | Data for Gondi – Hindi translation training        | `row_id`, `hindi`, `gondi`                   |
+| `mundari-train.csv`  | Data for Mundari – Hindi translation training      | `row_id`, `hindi`, `mundari`                 |
+| `santali-train.csv`  | Data for Santali – English translation training    | `row_id`, `english`, `santali`               |
+| `test.csv`           | Unlabeled source sentences to translate (released later) | `row_id`, `source_sentence`, `source_lang`, `target_lang` |
 
-All texts are drawn from a **private, permissively licensed source**, cleaned and curated for research.  
+_All texts are drawn from a private, permissively licensed source, cleaned and curated for research._  
 **Courtesy:** *Ministry of Tribal Affairs, Government of India.*
 
 ---
 
-### Submissions
+## Tasks & Expected Outputs
 
-- Follow the structure in **`sample_submission.zip`** for folder and file names.
-- Upload a single archive containing:
-  - MT predictions for the test split
-  - SA predictions for the test split
-- Include a short **system description** (1–2 pages) outlining model choices and data handling for low-resource constraints.
+| Task                   | What you submit                                                                                      | Where     | Metric                                 |
+|------------------------|------------------------------------------------------------------------------------------------------|-----------|----------------------------------------|
+| **Machine Translation**| `submission.csv` with columns:<br>`row_id`, `source_lang`, `source_sentence`, `target_lang`, `target_sentence` | On Kaggle | BLEU & chrF (tokenized, case-insensitive) |
 
 ---
 
-### Rules & Timeline
+### Evaluation Metric
+
+Leaderboard ranks teams by a weighted composite score:
+
+```text
+Final Score = 0.6 × BLEU + 0.4 × chrF
+
+> *Why 0.6 / 0.4?* Translation quality is harder to push in low-resource settings; the higher weight reflects its research importance.
+
+---
+
+## Rules & Timeline
 
 - **Standard Kaggle Code Competition rules apply.**  
-- **External data** allowed if it is publicly available **before 07 Aug 2025** and you **link** it in your write-up.  
+- **External data** allowed if publicly available **before 07 Aug 2025** and linked in your write-up.  
 - **Team merger deadline:** TBD  
 - **Final submission deadline:** TBD  
 - **Private leaderboard reveal:** TBD  
-- See the **Rules** tab on the competition page for full details.
+
+See the **Rules** tab on the competition page for full details.  
+Happy modeling – and thank you for advancing NLP for underrepresented languages!
 
 ---
 
-### Impact & Openness
+## 📂 Data
 
-All baselines, scripts, and winning approaches will be **open-sourced** to improve **access to vital information** in Bhili and to **amplify native speakers’ voices** online.
+#### 1. `bhili-train.csv`  
+Sentences for supervised Bhili – Hindi translation.
+
+| Column    | Type | Description                                        |
+|-----------|------|----------------------------------------------------|
+| `row_id`  | int  | Unique row identifier                              |
+| `hindi`   | str  | Sentence in the high-resource language (Hindi)     |
+| `bhili`   | str  | Gold translation in the low-resource language       |
+
+#### 2. `mundari-train.csv`  
+Sentences for supervised Mundari – Hindi translation.
+
+| Column    | Type | Description                                        |
+|-----------|------|----------------------------------------------------|
+| `row_id`  | int  | Unique row identifier                              |
+| `hindi`   | str  | Sentence in the high-resource language (Hindi)     |
+| `mundari` | str  | Gold translation in the low-resource language       |
+
+#### 3. `gondari-train.csv`  
+Sentences for supervised Gondi – Hindi translation.
+
+| Column    | Type | Description                                        |
+|-----------|------|----------------------------------------------------|
+| `row_id`  | int  | Unique row identifier                              |
+| `hindi`   | str  | Sentence in the high-resource language (Hindi)     |
+| `gondi`   | str  | Gold translation in the low-resource language       |
+
+#### 4. `santali-train.csv`  
+Sentences for supervised Santali – English translation.
+
+| Column    | Type | Description                                       |
+|-----------|------|---------------------------------------------------|
+| `row_id`  | int  | Unique row identifier                             |
+| `english` | str  | Sentence in the high-resource language (English)  |
+| `santali` | str  | Gold translation in the low-resource language      |
+
+#### 5. `test.csv`  
+Unlabeled source sentences. Participants must predict the **`target_sentence`** column.
+
+---
+
+## Data Provenance, Licensing, & Copyrights
+
+Machine Translation parallel corpora distilled from publicly released web-crawls and Wikipedia dumps, post-processed using the NGO-Aligned filtering toolkit.  
+All text is redistributed under **Creative Commons BY-SA 4.0**. Use outside this competition must cite the original sources.
+
+---
+
+## Citation
+
+If you publish work using this dataset, please cite:
+
+```bibtex
+@misc{lrlchallenge2025,
+  title         = {Multimodal Models for Low-Resource Contexts and Social Impact 2025},
+  year          = {2025},
+  howpublished  = {Kaggle Competition},
+  url           = {https://www.kaggle.com/competitions/mm-lo-so-2025}
+}
+

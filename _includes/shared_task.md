@@ -48,6 +48,17 @@ All texts are drawn from a **private, permissively licensed source**, cleaned an
 
 ---
 
+### Rules & Timeline
+
+- **Standard Kaggle Code Competition rules apply.**  
+- **External data** allowed if it is publicly available **before 07 Aug 2025** and you **link** it in your write-up.  
+- **Team merger deadline:** TBD  
+- **Final submission deadline:** TBD  
+- **Private leaderboard reveal:** TBD  
+- See the **Rules** tab on the competition page for full details.
+
+---
+
 ### Impact & Openness
 
 All baselines, scripts, and winning approaches will be **open-sourced** to improve **access to vital information** in Bhili and to **amplify native speakers’ voices** online.

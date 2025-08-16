@@ -58,7 +58,10 @@ Final Score = 0.6 × BLEU + 0.4 × chrF
 ## Rules & Timeline
 
 - **Standard Kaggle Code Competition rules apply.**  
-- **External data** allowed if publicly available **before 07 Aug 2025** and linked in your write-up.  
+- **External data** allowed if publicly available **before 30th Aug 2025** and linked in your write-up.  
+- **Trainin data release**: 16th August 2025  
+- **Training Phase**: 17th Aug - 5 October 2025
+- **testing Phase**: 5th Ocotober - 15th October 2025
 - **Team merger deadline:** TBD  
 - **Final submission deadline:** TBD  
 - **Private leaderboard reveal:** TBD  

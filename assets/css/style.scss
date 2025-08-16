@@ -49,3 +49,18 @@
 @media (max-width: 640px) {
   .top-nav ul { justify-content: center; }
 }
+
+
+/* Kaggle button */
+.kaggle-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background: #20beff;      /* Kaggle blue */
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+.kaggle-btn:hover { background: #149bd4; }
+.kaggle-btn:active { transform: translateY(1px); }

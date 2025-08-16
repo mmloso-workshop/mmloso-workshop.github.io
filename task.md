@@ -8,6 +8,14 @@ permalink: /task/                    # URL will be …/task/
 # Shared Task & Competition
 [← Back to main page]({{ '/' | relative_url }})
 
+<p>
+  <a class="kaggle-btn"
+     href="https://www.kaggle.com/competitions/mmloso2025/"
+     target="_blank" rel="noopener">
+    View on&nbsp;Kaggle&nbsp;↗
+  </a>
+</p>
+
 Welcome to **“MMLoSo Language Challenge 2025”**! India is land of unmatched diversity, especially in terms of spoken languages. Many of these languages are tribal languages, which have a sizable number of speakers. But often, these languages are poorly documented and thus lack the massive annotated corpora that power today’s NLP breakthroughs. Limited digital presence means the native speakers face barriers in healthcare messaging, disaster alerts, e-governance, and educational resources—all of which increasingly rely on text mining and machine translation.
 
 By building open-source systems for **LRL ⇆ HRL translation**, this competition channels deep‐learning skills toward tangible social impact: making vital information accessible in underserved languages and amplifying the voices of native speakers online. In this competition you will translate between high‐resource languages (HRL) and our focused low‐resource languages (LRL), i.e.:
@@ -130,6 +138,6 @@ If you publish work using this dataset, please cite:
   title         = {Multimodal Models for Low-Resource Contexts and Social Impact 2025},
   year          = {2025},
   howpublished  = {Kaggle Competition},
-  url           = {https://www.kaggle.com/competitions/mm-lo-so-2025}
+  url           = {https://www.kaggle.com/competitions/mmloso2025}
 }
 

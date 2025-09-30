@@ -142,7 +142,7 @@ The Ministry’s sponsorship and contribution of critical data resources have ma
 A special thanks to **Shri Vibhu Nayar, Secretary**, for his leadership and commitment to empowering research on **tribal and low-resource languages**.
 
 <p align="start">
-  <img src="assets/img/mota.svg" 
+  <img src="/assets/img/mota.svg" 
        alt="Ministry of Tribal Affairs Logo" 
        width="250">
 </p>

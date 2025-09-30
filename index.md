@@ -10,7 +10,7 @@ title: Welcome to MMLoSo 2025
 </style>
 
 <!-- ▶️  Banner goes right after the front-matter block ◀️ -->
-<img src="/assets/img/banner.png"
+<img src="assets/img/banner.png"
      alt="MMLoSo 2025 Workshop Banner"
      style="
         width:100vw;          /* fill entire viewport */
@@ -159,7 +159,7 @@ Details coming soon..
 
 ## 👥 <a id="organizers"></a> Organizers
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<!-- <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="flex: 1; min-width: 200px; text-align: center;">
     <img src="/assets/img/ankita.jpeg" alt="Ankita Shukla" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
     <strong>Ankita Shukla</strong><br>
@@ -180,7 +180,33 @@ Details coming soon..
     <strong>Tanmoy Chakraborty</strong><br>
     IIT Delhi
   </div>
+</div> -->
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="assets/img/ankita.jpeg" alt="Ankita Shukla" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <strong><a href="https://www.unr.edu/cse/people/ankita-shukla" target="_blank" style="text-decoration: none; color: inherit;">Ankita Shukla</a></strong><br>
+    University of Nevada, Reno
+  </div>
+
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="assets/img/sandeep.png" alt="Sandeep Kumar" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <strong><a href="https://sites.google.com/view/sandeepkr/home" target="_blank" style="text-decoration: none; color: inherit;">Sandeep Kumar</a></strong><br>
+    IIT Delhi
+  </div>
+
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="assets/img/amrit.jpg" alt="Amrit Singh Bedi" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <strong><a href="https://sites.google.com/view/amritsinghbedi/home" target="_blank" style="text-decoration: none; color: inherit;">Amrit Singh Bedi</a></strong><br>
+    University of Central Florida
+  </div>
+
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="assets/img/tanmoy.png" alt="Tanmoy Chakraborty" style="width:120px; height:120px; object-fit: cover; border-radius: 50%;"><br>
+    <strong><a href="https://tanmoychak.com/" target="_blank" style="text-decoration: none; color: inherit;">Tanmoy Chakraborty</a></strong><br>
+    IIT Delhi
+  </div>
 </div>
+
 
 ---
 ## 📝 <a id="pc"></a> Program Committee 
@@ -195,6 +221,7 @@ Interested? [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFu
   - Vaibhav Sharma
   - Pooja Singh
   - Harsh Chauhan
+  - Sanjeev Chauhan
       
 --- 
 

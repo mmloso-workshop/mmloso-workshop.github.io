@@ -129,6 +129,26 @@ All text is redistributed under **Creative Commons BY-SA 4.0**. Use outside this
 
 ---
 
+## 🌟 Special Thanks
+
+## 🏆 Competition Sponsor
+
+**Ministry of Tribal Affairs, Government of India**
+
+We gratefully acknowledge the generous support of the Ministry of Tribal Affairs, the nodal agency of the Government of India dedicated to the welfare and development of tribal communities across the country.  
+
+The Ministry’s sponsorship and contribution of critical data resources have made MMLoSo 2025 and the MMLoSo Language Challenge 2025 possible. Their vision aligns with our mission to advance research on tribal and low-resource languages, ensuring that technological progress benefits underserved communities.
+
+A special thanks to **Shri Vibhu Nayar, Secretary**, for his leadership and commitment to empowering research on **tribal and low-resource languages**.
+
+<p align="start">
+  <img src="assets/img/mota.svg" 
+       alt="Ministry of Tribal Affairs Logo" 
+       width="250">
+</p>
+
+---
+
 ## Citation
 
 If you publish work using this dataset, please cite:

@@ -10,70 +10,22 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    <style>
-      /* Layout wrapper */
-      body {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-
-      .layout {
-        flex: 1;
-        display: flex;
-      }
-
-      /* Sidebar (was header) */
-      .sidebar {
-        position: sticky;
-        top: 0;
-        width: 30%;
-        min-width: 250px;
-        /* background: #f4f4f4; */
-        height: 100vh; /* full viewport height */
-        overflow-y: auto; /* scroll if needed */
-        padding: 1rem;
-        box-sizing: border-box;
-        border-right: 1px solid #ddd;
-      }
-
-      /* Main content */
-      .content {
-        width: 70%;
-        padding: 2rem;
-        box-sizing: border-box;
-      }
-
-      /* Footer full width */
-      footer {
-        background: #222;
-        color: #fff;
-        text-align: center;
-        padding: 1rem;
-      }
-    </style>
   </head>
 
   <body>
-    <div class="layout">
-      <aside class="sidebar">
-        {% include header.html %}
-      </aside>
+    {% include header.html %}
+    <div class="wrapper">
+      <section>
+        {{ content }}
+      </section>
 
-      <main class="content">
-        <section>
-          {{ content }}
-        </section>
-      </main>
-    </div>
-
-    <footer>
-      {% if site.github.is_project_page %}
+      <footer>
+        {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-      {% endif %}
-      <p><small>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </footer>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>

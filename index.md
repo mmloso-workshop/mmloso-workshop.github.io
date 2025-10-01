@@ -221,7 +221,7 @@ Interested? [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFu
   - Vaibhav Sharma
   - Pooja Singh
   - Harsh Chauhan
-  - Sanjeev Chauhan
+  - Sanjeev Singh
       
 --- 
 

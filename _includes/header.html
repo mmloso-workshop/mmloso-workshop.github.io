@@ -1,5 +1,5 @@
 <!-- _includes/header.html -->
-<header class="site-header">
+<header class="site-header" style="position: relative">
 
   <!-- ① BANNER (stays at top, scrolls away) -->
   <div class="banner-inner">
@@ -34,14 +34,15 @@
       <li><a href="{{ '/#contact'    | relative_url }}">Contact</a></li>
     </ul>
      <!-- Ministry acknowledgment section -->
-    <!-- <div class="ministry-sponsor" style="text-align:start; margin-top:1rem;">
-      <p>🌟 Special Thanks</p>
-      <p>🏆 Competition Sponsor</p>
+    <div class="ministry-sponsor" style="text-align:start; margin-top:1rem;">
+      <h1>🌟 Special Thanks</h1>
+      <h2>🏆 Competition Sponsor</h2>
       <p><strong>Ministry of Tribal Affairs, Government of India</strong></p>
-      <img src="assets/img/mota.svg" 
-           alt="Ministry of Tribal Affairs Logo"
-           style="max-width:180px; margin-top:0.5rem;">
-    </div> -->
+   <img src="{{ '/assets/img/mota.svg' | relative_url }}" 
+     alt="Ministry of Tribal Affairs Logo"
+     style="max-width:180px; margin-top:0.5rem;">
+
+    </div>
   </nav>
 
 </header>

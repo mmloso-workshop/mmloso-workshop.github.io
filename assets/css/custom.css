@@ -1,5 +1,5 @@
 /* --- fixed sidebar nav --- */
-.sidebar-nav {
+/* .sidebar-nav {
   position: fixed;
   top: 20%;
   left: 20px;
@@ -8,7 +8,7 @@
   flex-direction: column;
   gap: 12px;
   z-index: 1000;
-}
+} */
 
 .sidebar-nav h3 {
   margin: 0;
@@ -68,7 +68,7 @@
 }
 
 /* responsive for mobile */
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   .sidebar-nav {
     position: static;
     width: auto;
@@ -84,4 +84,4 @@
     max-width: 100%;
     padding: 0 1rem;
   }
-}
+} */

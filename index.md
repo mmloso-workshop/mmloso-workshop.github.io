@@ -5,7 +5,7 @@ title: Welcome to MMLoSo 2025
 <style>
 /* widen the site’s default container */
 .wrapper{
-  max-width: 1200px;   /* pick any width you like, e.g. 1400px or 90vw */
+  max-width: 100%;   /* pick any width you like, e.g. 1400px or 90vw */
 }
 </style>
 
@@ -62,7 +62,7 @@ title: Welcome to MMLoSo 2025
 -->
 
 <style>
-body {
+/* body {
   max-width: 80%;
   margin-left: 2%;
   margin-right: 2%;
@@ -72,7 +72,7 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 </style>
 
 <div class="wrapper">

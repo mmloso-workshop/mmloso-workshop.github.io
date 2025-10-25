@@ -151,9 +151,10 @@ Details coming soon..
 *(Subject to change based on IJCNLP-AACL 2025)*
 
 - 📝 First call for papers: Submission deadline: **~~September 29, 2025~~** **Oct 03 2025 11:59PM UTC-0**
-- 📝 Second call for papers: Submission deadline: **Oct 22 2025 11:59PM UTC-0**
-- 📢 Notification: **November 3, 2025**  
-- 🖋 Camera-ready Deadline: **November 11, 2025**  
+- 📝 Second call for papers: Submission deadline: **~~Oct 22 2025 11:59PM UTC-0~~**
+- 📝 Last call for papers: Submission deadline: **Oct 28 2025 11:59PM UTC-0**
+- 📢 Notification: **November 10, 2025**  
+- 🖋 Camera-ready Deadline: **November 22, 2025**  
 - 📍 Workshop:  **December 23, 2025**
 
 ---

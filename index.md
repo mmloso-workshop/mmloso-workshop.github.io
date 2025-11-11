@@ -153,8 +153,8 @@ Details coming soon..
 - 📝 First call for papers: Submission deadline: **~~September 29, 2025~~** **Oct 03 2025 11:59PM UTC-0**
 - 📝 Second call for papers: Submission deadline: **~~Oct 22 2025 11:59PM UTC-0~~**
 - 📝 Last call for papers: Submission deadline: **Oct 28 2025 11:59PM UTC-0**
-- 📢 Notification: **November 10, 2025**  
-- 🖋 Camera-ready Deadline: **November 22, 2025**  
+- 📢 Notification: **~~November 10, 2025~~** **November 15th, 2025**  
+- 🖋 Camera-ready Deadline: **November 25, 2025**  
 - 📍 Workshop:  **December 23, 2025**
 
 ---

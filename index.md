@@ -213,8 +213,19 @@ Details coming soon..
 ---
 ## 📝 <a id="pc"></a> Program Committee 
 
-We’re looking for dedicated reviewers to help maintain the high standard of our review process. Each reviewer is assigned no more than two submissions. 
-Interested? [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLScknm1maEyFuSNxqDqzWcYkaIOwbQbVigPzNwFJPzl-c15miw/viewform?usp=header)
+- Anil Sharma, Samsung R&D
+- Gullal S. Cheema, Leibniz University Hannover
+- Sinjini Mitra, Ground Truth Analytics
+- Jyotismita Barman, Indian Institute of Technology Delhi
+- Abhishek Gupta, Indian Institute of Technology Delhi
+- Mohit Kataria, Indian Institute of Technology Delhi
+- Shruti Kshirsagar, Wichita State University
+- Jisoo Lee, Arizona State University
+- Nikita Malik, Indian Institute of Technology Delhi
+- Gourab Panda, Indian Institute of Technology Delhi
+- Aditya Hemant Shahane, Indian Institute of Technology Delhi
+- Pooja Singh, Indian Institute of Technology Delhi
+- Vipul Kumar Singh, Indian Institute of Technology Delhi
 
 ---
 ## 🙋‍♀️ <a id="volunteers"></a> Student Volunteers

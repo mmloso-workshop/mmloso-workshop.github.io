@@ -89,7 +89,7 @@ permalink: /program/                 # URL will be …/program/
     <tr class="invited">
       <td>2:35–3:20 pm</td>
       <td><strong>Invited Talk: Shamsudeen Muhammad</strong><br><em>Google DeepMind Academic Fellow</em></td>
-      <td>—</td>
+      <td>The Illusion of Inclusion: How LLMs Misrepresent African Languages and Cultural Contexts</td>
     </tr>
     <tr>
       <td>3:25–3:40 pm</td>

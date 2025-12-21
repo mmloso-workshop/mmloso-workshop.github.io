@@ -160,8 +160,6 @@ Full details are on the [dedicated page]({{ '/task/' | relative_url }}).
 ## 🗓️ <a id="program"></a> Program
 Full details are on the [dedicated page]({{ '/program/' | relative_url }}).
 
-
-
 *Quick link:* [Jump to Program](#program)
 
 ## 👥 <a id="organizers"></a> Organizers

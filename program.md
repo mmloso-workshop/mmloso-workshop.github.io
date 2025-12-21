@@ -1,3 +1,15 @@
+---
+layout: default                      # use the global layout
+title: Program     # text that shows in <title> and banner
+permalink: /program/                    # URL will be …/task/
+---
+
+
+# Shared Task & Competition
+[← Back to main page]({{ '/' | relative_url }})
+
+
+
 | Time | Session | Title |
 |---|---|---|
 | 9:10–9:55 am | Invited Talk:  David Adeline (Mila – Quebec AI Institute) | Scaling Multilingual Evaluation of LLMs to Many Languages |

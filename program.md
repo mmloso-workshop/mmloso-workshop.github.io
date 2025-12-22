@@ -36,6 +36,11 @@ permalink: /program/                 # URL will be …/program/
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>9:00 –9: 10 am</td>
+      <td>Workshop Opening</td>
+      <td>—</td>
+    </tr>
     <tr class="invited">
       <td>9:10–9:55 am</td>
       <td><strong>Invited Talk: David Adeline</strong><br><em>Mila – Quebec AI Institute</em></td>

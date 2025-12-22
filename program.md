@@ -59,7 +59,7 @@ permalink: /program/                 # URL will be …/program/
     <tr>
       <td>11:25–11:40 am</td>
       <td>Oral Talk 2</td>
-      <td>Evaluating IndicTrans2 and ByT5 for English–Santali Machine Translation Using the Ol Chiki Script</td>
+      <td>BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali</td>
     </tr>
     <tr>
       <td>11:45 am–12:00 pm</td>
@@ -98,26 +98,21 @@ permalink: /program/                 # URL will be …/program/
     </tr>
     <tr>
       <td>3:45–4:00 pm</td>
-      <td>Oral Talk 7</td>
-      <td>BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali</td>
-    </tr>
-    <tr>
-      <td>4:00–4:15 pm</td>
       <td>Oral Talk 8 (Challenge Track)</td>
       <td>LoRAs in All Directions: Directional Adapters and Noisy-Channel Reranking for Indic MT</td>
     </tr>
     <tr>
-      <td>4:15–4:30 pm</td>
+      <td>4:00–4:15 pm</td>
       <td>Oral Talk 9 (Challenge Track)</td>
       <td>Breaking Language Barriers: Adapting NLLB-200 and mBART for Bhilli, Gondi, Mundari, and Santali Without Source Language Proficiency</td>
     </tr>
     <tr>
-      <td>4:30–4:45 pm</td>
+      <td>4:15–4:30 pm</td>
       <td>Oral Talk 10 (Challenge Track)</td>
       <td>Divide and Translate: Parameter Isolation with Encoder Freezing for Low-Resource Indic NMT</td>
     </tr>
     <tr>
-      <td>4:45–5:00 pm</td>
+      <td>4:30–4:45 pm</td>
       <td>Oral Talk 11 (Challenge Track)</td>
       <td>JHARNA-MT: A Copy-Augmented Hybrid of LoRA-Tuned NLLB and Lexical SMT with Minimum Bayes Risk Decoding for Low-Resource Indic Languages</td>
     </tr>

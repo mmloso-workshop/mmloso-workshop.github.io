@@ -46,11 +46,6 @@ permalink: /program/                 # URL will be …/program/
       <td><strong>Invited Talk: David Adeline</strong><br><em>Mila – Quebec AI Institute</em></td>
       <td>Scaling Multilingual Evaluation of LLMs to Many Languages</td>
     </tr>
-    <tr class="invited">
-      <td>10:00–10:45 am</td>
-      <td><strong>Invited Talk: Dinesh Manocha</strong><br><em>University of Maryland, College Park</em></td>
-      <td>Towards Audio Intelligence and LLMs: Simulation and Understanding</td>
-    </tr>
     <tr>
       <td>10:45–11:00 am</td>
       <td>Break / Posters</td>
@@ -89,7 +84,7 @@ permalink: /program/                 # URL will be …/program/
     <tr class="invited">
       <td>1:45–2:30 pm</td>
       <td><strong>Invited Talk: Roy Ka-Wei Lee</strong><br><em>Singapore University of Technology and Design</em></td>
-      <td>AI for Safer Online Spaces: Combating Hate and Harm in the Digital World</td>
+      <td>Tackling Hateful Video Content with Multimodal AI</td>
     </tr>
     <tr class="invited">
       <td>2:35–3:20 pm</td>
